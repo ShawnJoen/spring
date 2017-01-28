@@ -1,4 +1,4 @@
-package com.demo.product;
+package com.demo.domain;
 
 public class ProductVO {
 	private String name;

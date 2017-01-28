@@ -22,10 +22,23 @@
 	<property name="password" value=""></property>
 	</bean>
 	
- 	<bean id="sqlSessionFactory" 
-	class="org.mybatis.spring.SqlSessionFactoryBean">
-	<property name="dataSource" ref="dataSource"></property>
+	<!-- mybatis 생성 -->
+ 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+	 <property name="dataSource" ref="dataSource"></property>
+	 <!-- <property name="configLocation" value="classpath:/mybatis-config.xml"></property> -->
+	 <property name="mapperLocations" 
+		value="file:src/main/resources/mappers/*Mapper.xml"></property>
 	</bean>
 	
-
+	<!-- 쿼리문 만들고 실행 -->
+    <bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate"
+    	destroy-method="clearCache">
+        <constructor-arg ref="sqlSessionFactory"></constructor-arg>
+    </bean>
+    
+   
+    
+    <!-- 스프링에서 스캔하게끔 지정 -->
+    <context:component-scan base-package="com.demo.persistence">
+    </context:component-scan>
 </beans>

@@ -1,0 +1,527 @@
+2017-01-28 23:30:06,986 [main] INFO  log4j2:365 - 1. Connection opened. {executed in 177ms} 
+2017-01-28 23:30:06,990 [main] INFO  log4j2:197 - 1. Connection.new Connection returned 
+2017-01-28 23:30:06,991 [main] INFO  log4j2:197 - 1. Connection.getAutoCommit() returned true
+2017-01-28 23:30:07,007 [main] INFO  log4j2:197 - 1. PreparedStatement.new PreparedStatement returned 
+2017-01-28 23:30:07,007 [main] INFO  log4j2:197 - 1. Connection.prepareStatement(select now()) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@68be8808
+2017-01-28 23:30:07,022 [main] INFO  log4j2:243 - 1. select now()  {executed in 2 ms}
+2017-01-28 23:30:07,024 [main] INFO  log4j2:197 - 1. PreparedStatement.execute() returned true
+2017-01-28 23:30:07,030 [main] INFO  log4j2:197 - 1. ResultSet.new ResultSet returned 
+2017-01-28 23:30:07,030 [main] INFO  log4j2:197 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@584f54e6
+2017-01-28 23:30:07,037 [main] INFO  log4j2:197 - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@5ef6ae06 - Field level information: 
+	com.mysql.cj.core.result.Field@55dfebeb[catalog=null,tableName=null,originalTableName=null,columnName=now(),originalColumnName=null,mysqlType=12(FIELD_TYPE_DATETIME),sqlType=93,flags= BINARY, charsetIndex=63, charsetName=ISO-8859-1]
+2017-01-28 23:30:07,039 [main] INFO  log4j2:197 - 1. ResultSet.getType() returned 1003
+2017-01-28 23:30:07,040 [main] INFO  log4j2:197 - 1. ResultSet.next() returned true
+2017-01-28 23:30:07,046 [main] INFO  log4j2:197 - 1. ResultSet.getString(now()) returned 2017-01-28 23:30:07
+2017-01-28 23:30:07,047 [main] INFO  log4j2:197 - 1. ResultSet.wasNull() returned false
+2017-01-28 23:30:07,048 [main] INFO  log4j2:390 - 
+|--------------------|
+|now()               |
+|--------------------|
+|2017-01-28 23:30:07 |
+|--------------------|
+
+2017-01-28 23:30:07,049 [main] INFO  log4j2:197 - 1. ResultSet.next() returned false
+2017-01-28 23:30:07,049 [main] INFO  log4j2:197 - 1. ResultSet.close() returned void
+2017-01-28 23:30:07,049 [main] INFO  log4j2:197 - 1. PreparedStatement.getConnection() returned net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@13d73fa
+2017-01-28 23:30:07,050 [main] INFO  log4j2:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@4535b6d5
+2017-01-28 23:30:07,050 [main] INFO  log4j2:197 - 1. PreparedStatement.getMoreResults() returned false
+2017-01-28 23:30:07,050 [main] INFO  log4j2:197 - 1. PreparedStatement.getUpdateCount() returned -1
+2017-01-28 23:30:07,050 [main] INFO  log4j2:197 - 1. PreparedStatement.close() returned 
+2017-01-28 23:30:07,052 [main] INFO  log4j2:365 - 1. Connection closed. {executed in 0ms} 
+2017-01-28 23:30:07,052 [main] INFO  log4j2:197 - 1. Connection.close() returned 
+2017-01-28 23:32:31,460 [main] INFO  log4j2:365 - 1. Connection opened. {executed in 208ms} 
+2017-01-28 23:32:31,464 [main] INFO  log4j2:197 - 1. Connection.new Connection returned 
+2017-01-28 23:32:31,464 [main] INFO  log4j2:197 - 1. Connection.getAutoCommit() returned true
+2017-01-28 23:32:31,480 [main] INFO  log4j2:197 - 1. PreparedStatement.new PreparedStatement returned 
+2017-01-28 23:32:31,480 [main] INFO  log4j2:197 - 1. Connection.prepareStatement(select now()) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@68be8808
+2017-01-28 23:32:31,493 [main] INFO  log4j2:243 - 1. select now()  {executed in 1 ms}
+2017-01-28 23:32:31,494 [main] INFO  log4j2:197 - 1. PreparedStatement.execute() returned true
+2017-01-28 23:32:31,501 [main] INFO  log4j2:197 - 1. ResultSet.new ResultSet returned 
+2017-01-28 23:32:31,501 [main] INFO  log4j2:197 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@584f54e6
+2017-01-28 23:32:31,518 [main] INFO  log4j2:197 - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@5ef6ae06 - Field level information: 
+	com.mysql.cj.core.result.Field@55dfebeb[catalog=null,tableName=null,originalTableName=null,columnName=now(),originalColumnName=null,mysqlType=12(FIELD_TYPE_DATETIME),sqlType=93,flags= BINARY, charsetIndex=63, charsetName=ISO-8859-1]
+2017-01-28 23:32:31,520 [main] INFO  log4j2:197 - 1. ResultSet.getType() returned 1003
+2017-01-28 23:32:31,524 [main] INFO  log4j2:197 - 1. ResultSet.next() returned true
+2017-01-28 23:32:31,532 [main] INFO  log4j2:197 - 1. ResultSet.getString(now()) returned 2017-01-28 23:32:31
+2017-01-28 23:32:31,532 [main] INFO  log4j2:197 - 1. ResultSet.wasNull() returned false
+2017-01-28 23:32:31,534 [main] INFO  log4j2:390 - 
+|--------------------|
+|now()               |
+|--------------------|
+|2017-01-28 23:32:31 |
+|--------------------|
+
+2017-01-28 23:32:31,534 [main] INFO  log4j2:197 - 1. ResultSet.next() returned false
+2017-01-28 23:32:31,534 [main] INFO  log4j2:197 - 1. ResultSet.close() returned void
+2017-01-28 23:32:31,535 [main] INFO  log4j2:197 - 1. PreparedStatement.getConnection() returned net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@13d73fa
+2017-01-28 23:32:31,535 [main] INFO  log4j2:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@4535b6d5
+2017-01-28 23:32:31,535 [main] INFO  log4j2:197 - 1. PreparedStatement.getMoreResults() returned false
+2017-01-28 23:32:31,535 [main] INFO  log4j2:197 - 1. PreparedStatement.getUpdateCount() returned -1
+2017-01-28 23:32:31,536 [main] INFO  log4j2:197 - 1. PreparedStatement.close() returned 
+2017-01-28 23:32:31,537 [main] INFO  log4j2:365 - 1. Connection closed. {executed in 0ms} 
+2017-01-28 23:32:31,538 [main] INFO  log4j2:197 - 1. Connection.close() returned 
+2017-01-28 23:33:22,225 [main] INFO  log4j2:365 - 1. Connection opened. {executed in 185ms} 
+2017-01-28 23:33:22,228 [main] INFO  log4j2:197 - 1. Connection.new Connection returned 
+2017-01-28 23:33:22,229 [main] INFO  log4j2:197 - 1. Connection.getAutoCommit() returned true
+2017-01-28 23:33:22,244 [main] INFO  log4j2:197 - 1. PreparedStatement.new PreparedStatement returned 
+2017-01-28 23:33:22,244 [main] INFO  log4j2:197 - 1. Connection.prepareStatement(select now()) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@4879dfad
+2017-01-28 23:33:22,258 [main] INFO  log4j2:243 - 1. select now()  {executed in 1 ms}
+2017-01-28 23:33:22,260 [main] INFO  log4j2:197 - 1. PreparedStatement.execute() returned true
+2017-01-28 23:33:22,266 [main] INFO  log4j2:197 - 1. ResultSet.new ResultSet returned 
+2017-01-28 23:33:22,267 [main] INFO  log4j2:197 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@15dcfae7
+2017-01-28 23:33:22,275 [main] INFO  log4j2:197 - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@63f8276e - Field level information: 
+	com.mysql.cj.core.result.Field@75f95314[catalog=null,tableName=null,originalTableName=null,columnName=now(),originalColumnName=null,mysqlType=12(FIELD_TYPE_DATETIME),sqlType=93,flags= BINARY, charsetIndex=63, charsetName=ISO-8859-1]
+2017-01-28 23:33:22,277 [main] INFO  log4j2:197 - 1. ResultSet.getType() returned 1003
+2017-01-28 23:33:22,277 [main] INFO  log4j2:197 - 1. ResultSet.next() returned true
+2017-01-28 23:33:22,287 [main] INFO  log4j2:197 - 1. ResultSet.getString(now()) returned 2017-01-28 23:33:22
+2017-01-28 23:33:22,287 [main] INFO  log4j2:197 - 1. ResultSet.wasNull() returned false
+2017-01-28 23:33:22,291 [main] INFO  log4j2:390 - 
+|--------------------|
+|now()               |
+|--------------------|
+|2017-01-28 23:33:22 |
+|--------------------|
+
+2017-01-28 23:33:22,292 [main] INFO  log4j2:197 - 1. ResultSet.next() returned false
+2017-01-28 23:33:22,293 [main] INFO  log4j2:197 - 1. ResultSet.close() returned void
+2017-01-28 23:33:22,294 [main] INFO  log4j2:197 - 1. PreparedStatement.getConnection() returned net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@64b73e7a
+2017-01-28 23:33:22,294 [main] INFO  log4j2:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@67304a40
+2017-01-28 23:33:22,295 [main] INFO  log4j2:197 - 1. PreparedStatement.getMoreResults() returned false
+2017-01-28 23:33:22,296 [main] INFO  log4j2:197 - 1. PreparedStatement.getUpdateCount() returned -1
+2017-01-28 23:33:22,297 [main] INFO  log4j2:197 - 1. PreparedStatement.close() returned 
+2017-01-28 23:33:22,299 [main] INFO  log4j2:365 - 1. Connection closed. {executed in 0ms} 
+2017-01-28 23:33:22,300 [main] INFO  log4j2:197 - 1. Connection.close() returned 
+2017-01-28 23:35:22,478 [main] INFO  log4j2:365 - 1. Connection opened. {executed in 246ms} 
+2017-01-28 23:35:22,483 [main] INFO  log4j2:197 - 1. Connection.new Connection returned 
+2017-01-28 23:35:22,484 [main] INFO  log4j2:197 - 1. Connection.getAutoCommit() returned true
+2017-01-28 23:35:22,504 [main] INFO  log4j2:197 - 1. PreparedStatement.new PreparedStatement returned 
+2017-01-28 23:35:22,504 [main] INFO  log4j2:197 - 1. Connection.prepareStatement(select now()) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@4879dfad
+2017-01-28 23:35:22,578 [main] INFO  log4j2:243 - 1. select now()  {executed in 1 ms}
+2017-01-28 23:35:22,580 [main] INFO  log4j2:197 - 1. PreparedStatement.execute() returned true
+2017-01-28 23:35:22,590 [main] INFO  log4j2:197 - 1. ResultSet.new ResultSet returned 
+2017-01-28 23:35:22,592 [main] INFO  log4j2:197 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@15dcfae7
+2017-01-28 23:35:22,607 [main] INFO  log4j2:197 - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@63f8276e - Field level information: 
+	com.mysql.cj.core.result.Field@75f95314[catalog=null,tableName=null,originalTableName=null,columnName=now(),originalColumnName=null,mysqlType=12(FIELD_TYPE_DATETIME),sqlType=93,flags= BINARY, charsetIndex=63, charsetName=ISO-8859-1]
+2017-01-28 23:35:22,610 [main] INFO  log4j2:197 - 1. ResultSet.getType() returned 1003
+2017-01-28 23:35:22,610 [main] INFO  log4j2:197 - 1. ResultSet.next() returned true
+2017-01-28 23:35:22,623 [main] INFO  log4j2:197 - 1. ResultSet.getString(now()) returned 2017-01-28 23:35:22
+2017-01-28 23:35:22,624 [main] INFO  log4j2:197 - 1. ResultSet.wasNull() returned false
+2017-01-28 23:35:22,629 [main] INFO  log4j2:390 - 
+|--------------------|
+|now()               |
+|--------------------|
+|2017-01-28 23:35:22 |
+|--------------------|
+
+2017-01-28 23:35:22,634 [main] INFO  log4j2:197 - 1. ResultSet.next() returned false
+2017-01-28 23:35:22,639 [main] INFO  log4j2:197 - 1. ResultSet.close() returned void
+2017-01-28 23:35:22,643 [main] INFO  log4j2:197 - 1. PreparedStatement.getConnection() returned net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@64b73e7a
+2017-01-28 23:35:22,644 [main] INFO  log4j2:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@67304a40
+2017-01-28 23:35:22,645 [main] INFO  log4j2:197 - 1. PreparedStatement.getMoreResults() returned false
+2017-01-28 23:35:22,646 [main] INFO  log4j2:197 - 1. PreparedStatement.getUpdateCount() returned -1
+2017-01-28 23:35:22,647 [main] INFO  log4j2:197 - 1. PreparedStatement.close() returned 
+2017-01-28 23:35:22,649 [main] INFO  log4j2:365 - 1. Connection closed. {executed in 1ms} 
+2017-01-28 23:35:22,649 [main] INFO  log4j2:197 - 1. Connection.close() returned 
+2017-01-28 23:36:53,507 [main] INFO  log4j2:365 - 1. Connection opened. {executed in 213ms} 
+2017-01-28 23:36:53,512 [main] INFO  log4j2:197 - 1. Connection.new Connection returned 
+2017-01-28 23:36:53,512 [main] INFO  log4j2:197 - 1. Connection.getAutoCommit() returned true
+2017-01-28 23:36:53,528 [main] INFO  log4j2:197 - 1. PreparedStatement.new PreparedStatement returned 
+2017-01-28 23:36:53,528 [main] INFO  log4j2:197 - 1. Connection.prepareStatement(select now()) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@2f40e5db
+2017-01-28 23:36:53,546 [main] INFO  log4j2:243 - 1. select now()  {executed in 1 ms}
+2017-01-28 23:36:53,547 [main] INFO  log4j2:197 - 1. PreparedStatement.execute() returned true
+2017-01-28 23:36:53,553 [main] INFO  log4j2:197 - 1. ResultSet.new ResultSet returned 
+2017-01-28 23:36:53,553 [main] INFO  log4j2:197 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@16c63f5
+2017-01-28 23:36:53,563 [main] INFO  log4j2:197 - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@74eb909f - Field level information: 
+	com.mysql.cj.core.result.Field@28ec166e[catalog=null,tableName=null,originalTableName=null,columnName=now(),originalColumnName=null,mysqlType=12(FIELD_TYPE_DATETIME),sqlType=93,flags= BINARY, charsetIndex=63, charsetName=ISO-8859-1]
+2017-01-28 23:36:53,566 [main] INFO  log4j2:197 - 1. ResultSet.getType() returned 1003
+2017-01-28 23:36:53,566 [main] INFO  log4j2:197 - 1. ResultSet.next() returned true
+2017-01-28 23:36:53,588 [main] INFO  log4j2:197 - 1. ResultSet.getString(now()) returned 2017-01-28 23:36:53
+2017-01-28 23:36:53,589 [main] INFO  log4j2:197 - 1. ResultSet.wasNull() returned false
+2017-01-28 23:36:53,592 [main] INFO  log4j2:390 - 
+|--------------------|
+|now()               |
+|--------------------|
+|2017-01-28 23:36:53 |
+|--------------------|
+
+2017-01-28 23:36:53,592 [main] INFO  log4j2:197 - 1. ResultSet.next() returned false
+2017-01-28 23:36:53,593 [main] INFO  log4j2:197 - 1. ResultSet.close() returned void
+2017-01-28 23:36:53,594 [main] INFO  log4j2:197 - 1. PreparedStatement.getConnection() returned net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@2e2ff723
+2017-01-28 23:36:53,594 [main] INFO  log4j2:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@7a1a3478
+2017-01-28 23:36:53,595 [main] INFO  log4j2:197 - 1. PreparedStatement.getMoreResults() returned false
+2017-01-28 23:36:53,595 [main] INFO  log4j2:197 - 1. PreparedStatement.getUpdateCount() returned -1
+2017-01-28 23:36:53,595 [main] INFO  log4j2:197 - 1. PreparedStatement.close() returned 
+2017-01-28 23:36:53,597 [main] INFO  log4j2:365 - 1. Connection closed. {executed in 1ms} 
+2017-01-28 23:36:53,597 [main] INFO  log4j2:197 - 1. Connection.close() returned 
+2017-01-28 23:43:40,920 [main] INFO  log4j2:365 - 1. Connection opened. {executed in 198ms} 
+2017-01-28 23:43:40,924 [main] INFO  log4j2:197 - 1. Connection.new Connection returned 
+2017-01-28 23:43:40,925 [main] INFO  log4j2:197 - 1. Connection.getAutoCommit() returned true
+2017-01-28 23:43:40,941 [main] INFO  log4j2:197 - 1. PreparedStatement.new PreparedStatement returned 
+2017-01-28 23:43:40,941 [main] INFO  log4j2:197 - 1. Connection.prepareStatement(select now()) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@2f40e5db
+2017-01-28 23:43:40,956 [main] INFO  log4j2:243 - 1. select now()  {executed in 1 ms}
+2017-01-28 23:43:40,957 [main] INFO  log4j2:197 - 1. PreparedStatement.execute() returned true
+2017-01-28 23:43:40,964 [main] INFO  log4j2:197 - 1. ResultSet.new ResultSet returned 
+2017-01-28 23:43:40,964 [main] INFO  log4j2:197 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@16c63f5
+2017-01-28 23:43:40,973 [main] INFO  log4j2:197 - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@74eb909f - Field level information: 
+	com.mysql.cj.core.result.Field@28ec166e[catalog=null,tableName=null,originalTableName=null,columnName=now(),originalColumnName=null,mysqlType=12(FIELD_TYPE_DATETIME),sqlType=93,flags= BINARY, charsetIndex=63, charsetName=ISO-8859-1]
+2017-01-28 23:43:40,975 [main] INFO  log4j2:197 - 1. ResultSet.getType() returned 1003
+2017-01-28 23:43:40,975 [main] INFO  log4j2:197 - 1. ResultSet.next() returned true
+2017-01-28 23:43:40,982 [main] INFO  log4j2:197 - 1. ResultSet.getString(now()) returned 2017-01-28 23:43:40
+2017-01-28 23:43:40,983 [main] INFO  log4j2:197 - 1. ResultSet.wasNull() returned false
+2017-01-28 23:43:40,984 [main] INFO  log4j2:390 - 
+|--------------------|
+|now()               |
+|--------------------|
+|2017-01-28 23:43:40 |
+|--------------------|
+
+2017-01-28 23:43:40,985 [main] INFO  log4j2:197 - 1. ResultSet.next() returned false
+2017-01-28 23:43:40,985 [main] INFO  log4j2:197 - 1. ResultSet.close() returned void
+2017-01-28 23:43:40,985 [main] INFO  log4j2:197 - 1. PreparedStatement.getConnection() returned net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@2e2ff723
+2017-01-28 23:43:40,986 [main] INFO  log4j2:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@7a1a3478
+2017-01-28 23:43:40,986 [main] INFO  log4j2:197 - 1. PreparedStatement.getMoreResults() returned false
+2017-01-28 23:43:40,986 [main] INFO  log4j2:197 - 1. PreparedStatement.getUpdateCount() returned -1
+2017-01-28 23:43:40,986 [main] INFO  log4j2:197 - 1. PreparedStatement.close() returned 
+2017-01-28 23:43:40,988 [main] INFO  log4j2:365 - 1. Connection closed. {executed in 1ms} 
+2017-01-28 23:43:40,988 [main] INFO  log4j2:197 - 1. Connection.close() returned 
+2017-01-28 23:44:17,017 [main] INFO  log4j2:365 - 2. Connection opened. {executed in 4ms} 
+2017-01-28 23:44:17,021 [main] INFO  log4j2:197 - 2. Connection.new Connection returned 
+2017-01-28 23:44:17,021 [main] INFO  log4j2:197 - 2. Connection.getAutoCommit() returned true
+2017-01-28 23:44:17,038 [main] INFO  log4j2:197 - 2. PreparedStatement.new PreparedStatement returned 
+2017-01-28 23:44:17,038 [main] INFO  log4j2:197 - 2. Connection.prepareStatement(select now()) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@5bdaf2ce
+2017-01-28 23:44:17,054 [main] INFO  log4j2:243 - 2. select now()  {executed in 1 ms}
+2017-01-28 23:44:17,055 [main] INFO  log4j2:197 - 2. PreparedStatement.execute() returned true
+2017-01-28 23:44:17,063 [main] INFO  log4j2:197 - 2. ResultSet.new ResultSet returned 
+2017-01-28 23:44:17,064 [main] INFO  log4j2:197 - 2. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@907f2b7
+2017-01-28 23:44:17,072 [main] INFO  log4j2:197 - 2. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@304b9f1a - Field level information: 
+	com.mysql.cj.core.result.Field@75699e35[catalog=null,tableName=null,originalTableName=null,columnName=now(),originalColumnName=null,mysqlType=12(FIELD_TYPE_DATETIME),sqlType=93,flags= BINARY, charsetIndex=63, charsetName=ISO-8859-1]
+2017-01-28 23:44:17,075 [main] INFO  log4j2:197 - 2. ResultSet.getType() returned 1003
+2017-01-28 23:44:17,075 [main] INFO  log4j2:197 - 2. ResultSet.next() returned true
+2017-01-28 23:44:17,085 [main] INFO  log4j2:197 - 2. ResultSet.getString(now()) returned 2017-01-28 23:44:17
+2017-01-28 23:44:17,085 [main] INFO  log4j2:197 - 2. ResultSet.wasNull() returned false
+2017-01-28 23:44:17,087 [main] INFO  log4j2:390 - 
+|--------------------|
+|now()               |
+|--------------------|
+|2017-01-28 23:44:17 |
+|--------------------|
+
+2017-01-28 23:44:17,089 [main] INFO  log4j2:197 - 2. ResultSet.next() returned false
+2017-01-28 23:44:17,090 [main] INFO  log4j2:197 - 2. ResultSet.close() returned void
+2017-01-28 23:44:17,093 [main] INFO  log4j2:197 - 2. PreparedStatement.getConnection() returned net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@29d334c
+2017-01-28 23:44:17,094 [main] INFO  log4j2:197 - 2. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@3935e9a8
+2017-01-28 23:44:17,097 [main] INFO  log4j2:197 - 2. PreparedStatement.getMoreResults() returned false
+2017-01-28 23:44:17,098 [main] INFO  log4j2:197 - 2. PreparedStatement.getUpdateCount() returned -1
+2017-01-28 23:44:17,100 [main] INFO  log4j2:197 - 2. PreparedStatement.close() returned 
+2017-01-28 23:44:17,102 [main] INFO  log4j2:365 - 2. Connection closed. {executed in 0ms} 
+2017-01-28 23:44:17,103 [main] INFO  log4j2:197 - 2. Connection.close() returned 
+2017-01-28 23:46:45,171 [main] INFO  log4j2:365 - 1. Connection opened. {executed in 184ms} 
+2017-01-28 23:46:45,175 [main] INFO  log4j2:197 - 1. Connection.new Connection returned 
+2017-01-28 23:46:45,175 [main] INFO  log4j2:197 - 1. Connection.getAutoCommit() returned true
+2017-01-28 23:46:45,191 [main] INFO  log4j2:197 - 1. PreparedStatement.new PreparedStatement returned 
+2017-01-28 23:46:45,191 [main] INFO  log4j2:197 - 1. Connection.prepareStatement(select now()) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@2f40e5db
+2017-01-28 23:46:45,205 [main] INFO  log4j2:243 - 1. select now()  {executed in 1 ms}
+2017-01-28 23:46:45,206 [main] INFO  log4j2:197 - 1. PreparedStatement.execute() returned true
+2017-01-28 23:46:45,212 [main] INFO  log4j2:197 - 1. ResultSet.new ResultSet returned 
+2017-01-28 23:46:45,212 [main] INFO  log4j2:197 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@16c63f5
+2017-01-28 23:46:45,221 [main] INFO  log4j2:197 - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@74eb909f - Field level information: 
+	com.mysql.cj.core.result.Field@28ec166e[catalog=null,tableName=null,originalTableName=null,columnName=now(),originalColumnName=null,mysqlType=12(FIELD_TYPE_DATETIME),sqlType=93,flags= BINARY, charsetIndex=63, charsetName=ISO-8859-1]
+2017-01-28 23:46:45,223 [main] INFO  log4j2:197 - 1. ResultSet.getType() returned 1003
+2017-01-28 23:46:45,224 [main] INFO  log4j2:197 - 1. ResultSet.next() returned true
+2017-01-28 23:46:45,230 [main] INFO  log4j2:197 - 1. ResultSet.getString(now()) returned 2017-01-28 23:46:45
+2017-01-28 23:46:45,230 [main] INFO  log4j2:197 - 1. ResultSet.wasNull() returned false
+2017-01-28 23:46:45,232 [main] INFO  log4j2:390 - 
+|--------------------|
+|now()               |
+|--------------------|
+|2017-01-28 23:46:45 |
+|--------------------|
+
+2017-01-28 23:46:45,232 [main] INFO  log4j2:197 - 1. ResultSet.next() returned false
+2017-01-28 23:46:45,232 [main] INFO  log4j2:197 - 1. ResultSet.close() returned void
+2017-01-28 23:46:45,233 [main] INFO  log4j2:197 - 1. PreparedStatement.getConnection() returned net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@2e2ff723
+2017-01-28 23:46:45,233 [main] INFO  log4j2:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@7a1a3478
+2017-01-28 23:46:45,234 [main] INFO  log4j2:197 - 1. PreparedStatement.getMoreResults() returned false
+2017-01-28 23:46:45,234 [main] INFO  log4j2:197 - 1. PreparedStatement.getUpdateCount() returned -1
+2017-01-28 23:46:45,234 [main] INFO  log4j2:197 - 1. PreparedStatement.close() returned 
+2017-01-28 23:46:45,236 [main] INFO  log4j2:365 - 1. Connection closed. {executed in 1ms} 
+2017-01-28 23:46:45,236 [main] INFO  log4j2:197 - 1. Connection.close() returned 
+2017-01-29 00:08:43,153 [main] INFO  log4j2:365 - 1. Connection opened. {executed in 214ms} 
+2017-01-29 00:08:43,158 [main] INFO  log4j2:197 - 1. Connection.new Connection returned 
+2017-01-29 00:08:43,158 [main] INFO  log4j2:197 - 1. Connection.getAutoCommit() returned true
+2017-01-29 00:08:43,174 [main] INFO  log4j2:197 - 1. PreparedStatement.new PreparedStatement returned 
+2017-01-29 00:08:43,175 [main] INFO  log4j2:197 - 1. Connection.prepareStatement(select now()) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@1c32386d
+2017-01-29 00:08:43,190 [main] INFO  log4j2:243 - 1. select now()  {executed in 0 ms}
+2017-01-29 00:08:43,191 [main] INFO  log4j2:197 - 1. PreparedStatement.execute() returned true
+2017-01-29 00:08:43,197 [main] INFO  log4j2:197 - 1. ResultSet.new ResultSet returned 
+2017-01-29 00:08:43,197 [main] INFO  log4j2:197 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@2d96543c
+2017-01-29 00:08:43,207 [main] INFO  log4j2:197 - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@6b8d96d9 - Field level information: 
+	com.mysql.cj.core.result.Field@69653e16[catalog=null,tableName=null,originalTableName=null,columnName=now(),originalColumnName=null,mysqlType=12(FIELD_TYPE_DATETIME),sqlType=93,flags= BINARY, charsetIndex=63, charsetName=ISO-8859-1]
+2017-01-29 00:08:43,209 [main] INFO  log4j2:197 - 1. ResultSet.getType() returned 1003
+2017-01-29 00:08:43,210 [main] INFO  log4j2:197 - 1. ResultSet.next() returned true
+2017-01-29 00:08:43,217 [main] INFO  log4j2:197 - 1. ResultSet.getString(now()) returned 2017-01-29 00:08:43
+2017-01-29 00:08:43,217 [main] INFO  log4j2:197 - 1. ResultSet.wasNull() returned false
+2017-01-29 00:08:43,219 [main] INFO  log4j2:390 - 
+|--------------------|
+|now()               |
+|--------------------|
+|2017-01-29 00:08:43 |
+|--------------------|
+
+2017-01-29 00:08:43,219 [main] INFO  log4j2:197 - 1. ResultSet.next() returned false
+2017-01-29 00:08:43,220 [main] INFO  log4j2:197 - 1. ResultSet.close() returned void
+2017-01-29 00:08:43,220 [main] INFO  log4j2:197 - 1. PreparedStatement.getConnection() returned net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@7203c7ff
+2017-01-29 00:08:43,221 [main] INFO  log4j2:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@628c4ac0
+2017-01-29 00:08:43,221 [main] INFO  log4j2:197 - 1. PreparedStatement.getMoreResults() returned false
+2017-01-29 00:08:43,221 [main] INFO  log4j2:197 - 1. PreparedStatement.getUpdateCount() returned -1
+2017-01-29 00:08:43,222 [main] INFO  log4j2:197 - 1. PreparedStatement.close() returned 
+2017-01-29 00:08:43,224 [main] INFO  log4j2:365 - 1. Connection closed. {executed in 0ms} 
+2017-01-29 00:08:43,224 [main] INFO  log4j2:197 - 1. Connection.close() returned 
+2017-01-29 00:27:13,373 [main] INFO  log4j2:365 - 1. Connection opened. {executed in 184ms} 
+2017-01-29 00:27:13,377 [main] INFO  log4j2:197 - 1. Connection.new Connection returned 
+2017-01-29 00:27:13,377 [main] INFO  log4j2:197 - 1. Connection.getAutoCommit() returned true
+2017-01-29 00:27:13,394 [main] INFO  log4j2:197 - 1. PreparedStatement.new PreparedStatement returned 
+2017-01-29 00:27:13,394 [main] INFO  log4j2:197 - 1. Connection.prepareStatement(select now()) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@1c32386d
+2017-01-29 00:27:13,411 [main] INFO  log4j2:243 - 1. select now()  {executed in 1 ms}
+2017-01-29 00:27:13,412 [main] INFO  log4j2:197 - 1. PreparedStatement.execute() returned true
+2017-01-29 00:27:13,418 [main] INFO  log4j2:197 - 1. ResultSet.new ResultSet returned 
+2017-01-29 00:27:13,418 [main] INFO  log4j2:197 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@2d96543c
+2017-01-29 00:27:13,428 [main] INFO  log4j2:197 - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@6b8d96d9 - Field level information: 
+	com.mysql.cj.core.result.Field@69653e16[catalog=null,tableName=null,originalTableName=null,columnName=now(),originalColumnName=null,mysqlType=12(FIELD_TYPE_DATETIME),sqlType=93,flags= BINARY, charsetIndex=63, charsetName=ISO-8859-1]
+2017-01-29 00:27:13,432 [main] INFO  log4j2:197 - 1. ResultSet.getType() returned 1003
+2017-01-29 00:27:13,433 [main] INFO  log4j2:197 - 1. ResultSet.next() returned true
+2017-01-29 00:27:13,440 [main] INFO  log4j2:197 - 1. ResultSet.getString(now()) returned 2017-01-29 00:27:13
+2017-01-29 00:27:13,441 [main] INFO  log4j2:197 - 1. ResultSet.wasNull() returned false
+2017-01-29 00:27:13,442 [main] INFO  log4j2:390 - 
+|--------------------|
+|now()               |
+|--------------------|
+|2017-01-29 00:27:13 |
+|--------------------|
+
+2017-01-29 00:27:13,443 [main] INFO  log4j2:197 - 1. ResultSet.next() returned false
+2017-01-29 00:27:13,443 [main] INFO  log4j2:197 - 1. ResultSet.close() returned void
+2017-01-29 00:27:13,443 [main] INFO  log4j2:197 - 1. PreparedStatement.getConnection() returned net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@7203c7ff
+2017-01-29 00:27:13,444 [main] INFO  log4j2:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@628c4ac0
+2017-01-29 00:27:13,444 [main] INFO  log4j2:197 - 1. PreparedStatement.getMoreResults() returned false
+2017-01-29 00:27:13,445 [main] INFO  log4j2:197 - 1. PreparedStatement.getUpdateCount() returned -1
+2017-01-29 00:27:13,445 [main] INFO  log4j2:197 - 1. PreparedStatement.close() returned 
+2017-01-29 00:27:13,447 [main] INFO  log4j2:365 - 1. Connection closed. {executed in 1ms} 
+2017-01-29 00:27:13,448 [main] INFO  log4j2:197 - 1. Connection.close() returned 
+2017-01-29 00:35:54,493 [main] INFO  log4j2:365 - 1. Connection opened. {executed in 187ms} 
+2017-01-29 00:35:54,496 [main] INFO  log4j2:197 - 1. Connection.new Connection returned 
+2017-01-29 00:35:54,497 [main] INFO  log4j2:197 - 1. Connection.getAutoCommit() returned true
+2017-01-29 00:35:54,512 [main] INFO  log4j2:197 - 1. PreparedStatement.new PreparedStatement returned 
+2017-01-29 00:35:54,513 [main] INFO  log4j2:197 - 1. Connection.prepareStatement(select now()) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@1c32386d
+2017-01-29 00:35:54,532 [main] INFO  log4j2:243 - 1. select now()  {executed in 0 ms}
+2017-01-29 00:35:54,533 [main] INFO  log4j2:197 - 1. PreparedStatement.execute() returned true
+2017-01-29 00:35:54,538 [main] INFO  log4j2:197 - 1. ResultSet.new ResultSet returned 
+2017-01-29 00:35:54,539 [main] INFO  log4j2:197 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@2d96543c
+2017-01-29 00:35:54,550 [main] INFO  log4j2:197 - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@6b8d96d9 - Field level information: 
+	com.mysql.cj.core.result.Field@69653e16[catalog=null,tableName=null,originalTableName=null,columnName=now(),originalColumnName=null,mysqlType=12(FIELD_TYPE_DATETIME),sqlType=93,flags= BINARY, charsetIndex=63, charsetName=ISO-8859-1]
+2017-01-29 00:35:54,552 [main] INFO  log4j2:197 - 1. ResultSet.getType() returned 1003
+2017-01-29 00:35:54,553 [main] INFO  log4j2:197 - 1. ResultSet.next() returned true
+2017-01-29 00:35:54,561 [main] INFO  log4j2:197 - 1. ResultSet.getString(now()) returned 2017-01-29 00:35:54
+2017-01-29 00:35:54,561 [main] INFO  log4j2:197 - 1. ResultSet.wasNull() returned false
+2017-01-29 00:35:54,563 [main] INFO  log4j2:390 - 
+|--------------------|
+|now()               |
+|--------------------|
+|2017-01-29 00:35:54 |
+|--------------------|
+
+2017-01-29 00:35:54,564 [main] INFO  log4j2:197 - 1. ResultSet.next() returned false
+2017-01-29 00:35:54,564 [main] INFO  log4j2:197 - 1. ResultSet.close() returned void
+2017-01-29 00:35:54,565 [main] INFO  log4j2:197 - 1. PreparedStatement.getConnection() returned net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@7203c7ff
+2017-01-29 00:35:54,565 [main] INFO  log4j2:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@628c4ac0
+2017-01-29 00:35:54,565 [main] INFO  log4j2:197 - 1. PreparedStatement.getMoreResults() returned false
+2017-01-29 00:35:54,566 [main] INFO  log4j2:197 - 1. PreparedStatement.getUpdateCount() returned -1
+2017-01-29 00:35:54,566 [main] INFO  log4j2:197 - 1. PreparedStatement.close() returned 
+2017-01-29 00:35:54,568 [main] INFO  log4j2:365 - 1. Connection closed. {executed in 1ms} 
+2017-01-29 00:35:54,568 [main] INFO  log4j2:197 - 1. Connection.close() returned 
+2017-01-29 00:36:49,570 [main] INFO  log4j2:365 - 1. Connection opened. {executed in 212ms} 
+2017-01-29 00:36:49,574 [main] INFO  log4j2:197 - 1. Connection.new Connection returned 
+2017-01-29 00:36:49,574 [main] INFO  log4j2:197 - 1. Connection.getAutoCommit() returned true
+2017-01-29 00:36:49,588 [main] INFO  log4j2:197 - 1. PreparedStatement.new PreparedStatement returned 
+2017-01-29 00:36:49,588 [main] INFO  log4j2:197 - 1. Connection.prepareStatement(select now()) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@1c32386d
+2017-01-29 00:36:49,602 [main] INFO  log4j2:243 - 1. select now()  {executed in 1 ms}
+2017-01-29 00:36:49,603 [main] INFO  log4j2:197 - 1. PreparedStatement.execute() returned true
+2017-01-29 00:36:49,608 [main] INFO  log4j2:197 - 1. ResultSet.new ResultSet returned 
+2017-01-29 00:36:49,609 [main] INFO  log4j2:197 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@2d96543c
+2017-01-29 00:36:49,618 [main] INFO  log4j2:197 - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@6b8d96d9 - Field level information: 
+	com.mysql.cj.core.result.Field@69653e16[catalog=null,tableName=null,originalTableName=null,columnName=now(),originalColumnName=null,mysqlType=12(FIELD_TYPE_DATETIME),sqlType=93,flags= BINARY, charsetIndex=63, charsetName=ISO-8859-1]
+2017-01-29 00:36:49,621 [main] INFO  log4j2:197 - 1. ResultSet.getType() returned 1003
+2017-01-29 00:36:49,621 [main] INFO  log4j2:197 - 1. ResultSet.next() returned true
+2017-01-29 00:36:49,627 [main] INFO  log4j2:197 - 1. ResultSet.getString(now()) returned 2017-01-29 00:36:49
+2017-01-29 00:36:49,628 [main] INFO  log4j2:197 - 1. ResultSet.wasNull() returned false
+2017-01-29 00:36:49,630 [main] INFO  log4j2:390 - 
+|--------------------|
+|now()               |
+|--------------------|
+|2017-01-29 00:36:49 |
+|--------------------|
+
+2017-01-29 00:36:49,630 [main] INFO  log4j2:197 - 1. ResultSet.next() returned false
+2017-01-29 00:36:49,631 [main] INFO  log4j2:197 - 1. ResultSet.close() returned void
+2017-01-29 00:36:49,631 [main] INFO  log4j2:197 - 1. PreparedStatement.getConnection() returned net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@7203c7ff
+2017-01-29 00:36:49,631 [main] INFO  log4j2:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@628c4ac0
+2017-01-29 00:36:49,631 [main] INFO  log4j2:197 - 1. PreparedStatement.getMoreResults() returned false
+2017-01-29 00:36:49,632 [main] INFO  log4j2:197 - 1. PreparedStatement.getUpdateCount() returned -1
+2017-01-29 00:36:49,632 [main] INFO  log4j2:197 - 1. PreparedStatement.close() returned 
+2017-01-29 00:36:49,634 [main] INFO  log4j2:365 - 1. Connection closed. {executed in 0ms} 
+2017-01-29 00:36:49,634 [main] INFO  log4j2:197 - 1. Connection.close() returned 
+2017-01-29 00:37:48,190 [main] INFO  log4j2:365 - 1. Connection opened. {executed in 185ms} 
+2017-01-29 00:37:48,195 [main] INFO  log4j2:197 - 1. Connection.new Connection returned 
+2017-01-29 00:37:48,195 [main] INFO  log4j2:197 - 1. Connection.getAutoCommit() returned true
+2017-01-29 00:37:48,210 [main] INFO  log4j2:197 - 1. PreparedStatement.new PreparedStatement returned 
+2017-01-29 00:37:48,211 [main] INFO  log4j2:197 - 1. Connection.prepareStatement(select now()) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@1c32386d
+2017-01-29 00:37:48,230 [main] INFO  log4j2:243 - 1. select now()  {executed in 6 ms}
+2017-01-29 00:37:48,231 [main] INFO  log4j2:197 - 1. PreparedStatement.execute() returned true
+2017-01-29 00:37:48,237 [main] INFO  log4j2:197 - 1. ResultSet.new ResultSet returned 
+2017-01-29 00:37:48,237 [main] INFO  log4j2:197 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@2d96543c
+2017-01-29 00:37:48,247 [main] INFO  log4j2:197 - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@6b8d96d9 - Field level information: 
+	com.mysql.cj.core.result.Field@69653e16[catalog=null,tableName=null,originalTableName=null,columnName=now(),originalColumnName=null,mysqlType=12(FIELD_TYPE_DATETIME),sqlType=93,flags= BINARY, charsetIndex=63, charsetName=ISO-8859-1]
+2017-01-29 00:37:48,250 [main] INFO  log4j2:197 - 1. ResultSet.getType() returned 1003
+2017-01-29 00:37:48,250 [main] INFO  log4j2:197 - 1. ResultSet.next() returned true
+2017-01-29 00:37:48,258 [main] INFO  log4j2:197 - 1. ResultSet.getString(now()) returned 2017-01-29 00:37:48
+2017-01-29 00:37:48,258 [main] INFO  log4j2:197 - 1. ResultSet.wasNull() returned false
+2017-01-29 00:37:48,260 [main] INFO  log4j2:390 - 
+|--------------------|
+|now()               |
+|--------------------|
+|2017-01-29 00:37:48 |
+|--------------------|
+
+2017-01-29 00:37:48,260 [main] INFO  log4j2:197 - 1. ResultSet.next() returned false
+2017-01-29 00:37:48,261 [main] INFO  log4j2:197 - 1. ResultSet.close() returned void
+2017-01-29 00:37:48,261 [main] INFO  log4j2:197 - 1. PreparedStatement.getConnection() returned net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@7203c7ff
+2017-01-29 00:37:48,261 [main] INFO  log4j2:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@628c4ac0
+2017-01-29 00:37:48,262 [main] INFO  log4j2:197 - 1. PreparedStatement.getMoreResults() returned false
+2017-01-29 00:37:48,262 [main] INFO  log4j2:197 - 1. PreparedStatement.getUpdateCount() returned -1
+2017-01-29 00:37:48,262 [main] INFO  log4j2:197 - 1. PreparedStatement.close() returned 
+2017-01-29 00:37:48,264 [main] INFO  log4j2:365 - 1. Connection closed. {executed in 1ms} 
+2017-01-29 00:37:48,264 [main] INFO  log4j2:197 - 1. Connection.close() returned 
+2017-01-29 00:58:00,055 [main] INFO  log4j2:365 - 1. Connection opened. {executed in 178ms} 
+2017-01-29 00:58:00,059 [main] INFO  log4j2:197 - 1. Connection.new Connection returned 
+2017-01-29 00:58:00,059 [main] INFO  log4j2:197 - 1. Connection.getAutoCommit() returned true
+2017-01-29 00:58:00,075 [main] INFO  log4j2:197 - 1. PreparedStatement.new PreparedStatement returned 
+2017-01-29 00:58:00,076 [main] INFO  log4j2:197 - 1. Connection.prepareStatement(select now()) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@1c32386d
+2017-01-29 00:58:00,091 [main] INFO  log4j2:243 - 1. select now()  {executed in 1 ms}
+2017-01-29 00:58:00,092 [main] INFO  log4j2:197 - 1. PreparedStatement.execute() returned true
+2017-01-29 00:58:00,097 [main] INFO  log4j2:197 - 1. ResultSet.new ResultSet returned 
+2017-01-29 00:58:00,097 [main] INFO  log4j2:197 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@2d96543c
+2017-01-29 00:58:00,105 [main] INFO  log4j2:197 - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@6b8d96d9 - Field level information: 
+	com.mysql.cj.core.result.Field@69653e16[catalog=null,tableName=null,originalTableName=null,columnName=now(),originalColumnName=null,mysqlType=12(FIELD_TYPE_DATETIME),sqlType=93,flags= BINARY, charsetIndex=63, charsetName=ISO-8859-1]
+2017-01-29 00:58:00,108 [main] INFO  log4j2:197 - 1. ResultSet.getType() returned 1003
+2017-01-29 00:58:00,108 [main] INFO  log4j2:197 - 1. ResultSet.next() returned true
+2017-01-29 00:58:00,114 [main] INFO  log4j2:197 - 1. ResultSet.getString(now()) returned 2017-01-29 00:58:00
+2017-01-29 00:58:00,115 [main] INFO  log4j2:197 - 1. ResultSet.wasNull() returned false
+2017-01-29 00:58:00,116 [main] INFO  log4j2:390 - 
+|--------------------|
+|now()               |
+|--------------------|
+|2017-01-29 00:58:00 |
+|--------------------|
+
+2017-01-29 00:58:00,117 [main] INFO  log4j2:197 - 1. ResultSet.next() returned false
+2017-01-29 00:58:00,117 [main] INFO  log4j2:197 - 1. ResultSet.close() returned void
+2017-01-29 00:58:00,118 [main] INFO  log4j2:197 - 1. PreparedStatement.getConnection() returned net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@7203c7ff
+2017-01-29 00:58:00,119 [main] INFO  log4j2:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@628c4ac0
+2017-01-29 00:58:00,119 [main] INFO  log4j2:197 - 1. PreparedStatement.getMoreResults() returned false
+2017-01-29 00:58:00,119 [main] INFO  log4j2:197 - 1. PreparedStatement.getUpdateCount() returned -1
+2017-01-29 00:58:00,120 [main] INFO  log4j2:197 - 1. PreparedStatement.close() returned 
+2017-01-29 00:58:00,121 [main] INFO  log4j2:365 - 1. Connection closed. {executed in 1ms} 
+2017-01-29 00:58:00,121 [main] INFO  log4j2:197 - 1. Connection.close() returned 
+2017-01-29 01:50:21,212 [main] INFO  log4j2:365 - 1. Connection opened. {executed in 200ms} 
+2017-01-29 01:50:21,223 [main] INFO  log4j2:197 - 1. Connection.new Connection returned 
+2017-01-29 01:50:21,224 [main] INFO  log4j2:197 - 1. Connection.getAutoCommit() returned true
+2017-01-29 01:50:21,258 [main] INFO  log4j2:197 - 1. PreparedStatement.new PreparedStatement returned 
+2017-01-29 01:50:21,258 [main] INFO  log4j2:197 - 1. Connection.prepareStatement(select now()) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@1c32386d
+2017-01-29 01:50:21,275 [main] INFO  log4j2:243 - 1. select now()  {executed in 1 ms}
+2017-01-29 01:50:21,276 [main] INFO  log4j2:197 - 1. PreparedStatement.execute() returned true
+2017-01-29 01:50:21,283 [main] INFO  log4j2:197 - 1. ResultSet.new ResultSet returned 
+2017-01-29 01:50:21,284 [main] INFO  log4j2:197 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@2d96543c
+2017-01-29 01:50:21,293 [main] INFO  log4j2:197 - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@6b8d96d9 - Field level information: 
+	com.mysql.cj.core.result.Field@69653e16[catalog=null,tableName=null,originalTableName=null,columnName=now(),originalColumnName=null,mysqlType=12(FIELD_TYPE_DATETIME),sqlType=93,flags= BINARY, charsetIndex=63, charsetName=ISO-8859-1]
+2017-01-29 01:50:21,296 [main] INFO  log4j2:197 - 1. ResultSet.getType() returned 1003
+2017-01-29 01:50:21,297 [main] INFO  log4j2:197 - 1. ResultSet.next() returned true
+2017-01-29 01:50:21,313 [main] INFO  log4j2:197 - 1. ResultSet.getString(now()) returned 2017-01-29 01:50:21
+2017-01-29 01:50:21,314 [main] INFO  log4j2:197 - 1. ResultSet.wasNull() returned false
+2017-01-29 01:50:21,318 [main] INFO  log4j2:390 - 
+|--------------------|
+|now()               |
+|--------------------|
+|2017-01-29 01:50:21 |
+|--------------------|
+
+2017-01-29 01:50:21,319 [main] INFO  log4j2:197 - 1. ResultSet.next() returned false
+2017-01-29 01:50:21,319 [main] INFO  log4j2:197 - 1. ResultSet.close() returned void
+2017-01-29 01:50:21,320 [main] INFO  log4j2:197 - 1. PreparedStatement.getConnection() returned net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@7203c7ff
+2017-01-29 01:50:21,321 [main] INFO  log4j2:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@628c4ac0
+2017-01-29 01:50:21,321 [main] INFO  log4j2:197 - 1. PreparedStatement.getMoreResults() returned false
+2017-01-29 01:50:21,322 [main] INFO  log4j2:197 - 1. PreparedStatement.getUpdateCount() returned -1
+2017-01-29 01:50:21,322 [main] INFO  log4j2:197 - 1. PreparedStatement.close() returned 
+2017-01-29 01:50:21,324 [main] INFO  log4j2:365 - 1. Connection closed. {executed in 0ms} 
+2017-01-29 01:50:21,325 [main] INFO  log4j2:197 - 1. Connection.close() returned 
+2017-01-29 01:52:04,681 [main] INFO  log4j2:365 - 1. Connection opened. {executed in 199ms} 
+2017-01-29 01:52:04,685 [main] INFO  log4j2:197 - 1. Connection.new Connection returned 
+2017-01-29 01:52:04,686 [main] INFO  log4j2:197 - 1. Connection.getAutoCommit() returned true
+2017-01-29 01:52:04,703 [main] INFO  log4j2:197 - 1. PreparedStatement.new PreparedStatement returned 
+2017-01-29 01:52:04,703 [main] INFO  log4j2:197 - 1. Connection.prepareStatement(select now()) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@1c32386d
+2017-01-29 01:52:04,718 [main] INFO  log4j2:243 - 1. select now()  {executed in 1 ms}
+2017-01-29 01:52:04,719 [main] INFO  log4j2:197 - 1. PreparedStatement.execute() returned true
+2017-01-29 01:52:04,725 [main] INFO  log4j2:197 - 1. ResultSet.new ResultSet returned 
+2017-01-29 01:52:04,726 [main] INFO  log4j2:197 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@2d96543c
+2017-01-29 01:52:04,735 [main] INFO  log4j2:197 - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@6b8d96d9 - Field level information: 
+	com.mysql.cj.core.result.Field@69653e16[catalog=null,tableName=null,originalTableName=null,columnName=now(),originalColumnName=null,mysqlType=12(FIELD_TYPE_DATETIME),sqlType=93,flags= BINARY, charsetIndex=63, charsetName=ISO-8859-1]
+2017-01-29 01:52:04,737 [main] INFO  log4j2:197 - 1. ResultSet.getType() returned 1003
+2017-01-29 01:52:04,738 [main] INFO  log4j2:197 - 1. ResultSet.next() returned true
+2017-01-29 01:52:04,744 [main] INFO  log4j2:197 - 1. ResultSet.getString(now()) returned 2017-01-29 01:52:04
+2017-01-29 01:52:04,744 [main] INFO  log4j2:197 - 1. ResultSet.wasNull() returned false
+2017-01-29 01:52:04,745 [main] INFO  log4j2:390 - 
+|--------------------|
+|now()               |
+|--------------------|
+|2017-01-29 01:52:04 |
+|--------------------|
+
+2017-01-29 01:52:04,746 [main] INFO  log4j2:197 - 1. ResultSet.next() returned false
+2017-01-29 01:52:04,746 [main] INFO  log4j2:197 - 1. ResultSet.close() returned void
+2017-01-29 01:52:04,747 [main] INFO  log4j2:197 - 1. PreparedStatement.getConnection() returned net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@7203c7ff
+2017-01-29 01:52:04,747 [main] INFO  log4j2:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@628c4ac0
+2017-01-29 01:52:04,747 [main] INFO  log4j2:197 - 1. PreparedStatement.getMoreResults() returned false
+2017-01-29 01:52:04,748 [main] INFO  log4j2:197 - 1. PreparedStatement.getUpdateCount() returned -1
+2017-01-29 01:52:04,748 [main] INFO  log4j2:197 - 1. PreparedStatement.close() returned 
+2017-01-29 01:52:04,749 [main] INFO  log4j2:365 - 1. Connection closed. {executed in 0ms} 
+2017-01-29 01:52:04,750 [main] INFO  log4j2:197 - 1. Connection.close() returned 
+2017-01-29 02:01:44,189 [main] INFO  log4j2:365 - 1. Connection opened. {executed in 238ms} 
+2017-01-29 02:01:44,194 [main] INFO  log4j2:197 - 1. Connection.new Connection returned 
+2017-01-29 02:01:44,194 [main] INFO  log4j2:197 - 1. Connection.getAutoCommit() returned true
+2017-01-29 02:01:44,209 [main] INFO  log4j2:197 - 1. PreparedStatement.new PreparedStatement returned 
+2017-01-29 02:01:44,210 [main] INFO  log4j2:197 - 1. Connection.prepareStatement(select now()) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@2f40e5db
+2017-01-29 02:01:44,286 [main] INFO  log4j2:243 - 1. select now()  {executed in 49 ms}
+2017-01-29 02:01:44,287 [main] INFO  log4j2:197 - 1. PreparedStatement.execute() returned true
+2017-01-29 02:01:44,293 [main] INFO  log4j2:197 - 1. ResultSet.new ResultSet returned 
+2017-01-29 02:01:44,293 [main] INFO  log4j2:197 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@16c63f5
+2017-01-29 02:01:44,303 [main] INFO  log4j2:197 - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@74eb909f - Field level information: 
+	com.mysql.cj.core.result.Field@28ec166e[catalog=null,tableName=null,originalTableName=null,columnName=now(),originalColumnName=null,mysqlType=12(FIELD_TYPE_DATETIME),sqlType=93,flags= BINARY, charsetIndex=63, charsetName=ISO-8859-1]
+2017-01-29 02:01:44,306 [main] INFO  log4j2:197 - 1. ResultSet.getType() returned 1003
+2017-01-29 02:01:44,306 [main] INFO  log4j2:197 - 1. ResultSet.next() returned true
+2017-01-29 02:01:44,314 [main] INFO  log4j2:197 - 1. ResultSet.getString(now()) returned 2017-01-29 02:01:44
+2017-01-29 02:01:44,314 [main] INFO  log4j2:197 - 1. ResultSet.wasNull() returned false
+2017-01-29 02:01:44,316 [main] INFO  log4j2:390 - 
+|--------------------|
+|now()               |
+|--------------------|
+|2017-01-29 02:01:44 |
+|--------------------|
+
+2017-01-29 02:01:44,317 [main] INFO  log4j2:197 - 1. ResultSet.next() returned false
+2017-01-29 02:01:44,317 [main] INFO  log4j2:197 - 1. ResultSet.close() returned void
+2017-01-29 02:01:44,318 [main] INFO  log4j2:197 - 1. PreparedStatement.getConnection() returned net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@2e2ff723
+2017-01-29 02:01:44,318 [main] INFO  log4j2:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@7a1a3478
+2017-01-29 02:01:44,318 [main] INFO  log4j2:197 - 1. PreparedStatement.getMoreResults() returned false
+2017-01-29 02:01:44,319 [main] INFO  log4j2:197 - 1. PreparedStatement.getUpdateCount() returned -1
+2017-01-29 02:01:44,319 [main] INFO  log4j2:197 - 1. PreparedStatement.close() returned 
+2017-01-29 02:01:44,320 [main] INFO  log4j2:365 - 1. Connection closed. {executed in 0ms} 
+2017-01-29 02:01:44,321 [main] INFO  log4j2:197 - 1. Connection.close() returned 

@@ -5,8 +5,6 @@ import java.util.Date;
 public class MemberVO {
 	private int id;
 	private char mobile;
-	private char service_tel;
-	private String service_name;
 	private String name;
 	private String logo;
 	private String address;
@@ -23,18 +21,6 @@ public class MemberVO {
 	}
 	public void setMobile(char mobile) {
 		this.mobile = mobile;
-	}
-	public char getService_tel() {
-		return service_tel;
-	}
-	public void setService_tel(char service_tel) {
-		this.service_tel = service_tel;
-	}
-	public String getService_name() {
-		return service_name;
-	}
-	public void setService_name(String service_name) {
-		this.service_name = service_name;
 	}
 	public String getName() {
 		return name;
@@ -68,8 +54,7 @@ public class MemberVO {
 	}
 	@Override
 	public String toString() {
-		return "MemberVO [id=" + id + ", mobile=" + mobile + ", service_tel=" + service_tel + ", service_name="
-				+ service_name + ", name=" + name + ", logo=" + logo + ", address=" + address + ", status=" + status
+		return "MemberVO [id=" + id + ", mobile=" + mobile + ", name=" + name + ", logo=" + logo + ", address=" + address + ", status=" + status
 				+ ", created_at=" + created_at + "]";
 	}
 }
